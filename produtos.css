@@ -37,7 +37,11 @@ nav a:hover{
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	display: flex;
+	
 }
+
+
 
 .produtos li {
 	display: inline-block;
@@ -81,7 +85,7 @@ nav a:hover{
 
 footer{
 	text-align: center;
-background: #cccccc;
+background:url("bg.jpg");
 padding: 40px 0 ;
 
 }
