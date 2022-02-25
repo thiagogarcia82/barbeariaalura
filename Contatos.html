@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contatos</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+            <form>
+				<label for="nome e sobrenome">nome e sobrenome</label>
+               	<input type="text" id="nome e sobrenome"> 
+
+				<label for="email">email</label>
+               	<input type="text" id="email"> 
+				
+				<label for="telefone">telefone</label>
+               	<input type="text" id="telefone">
+
+				 <label for="mensagem">mensagem</label>  
+				<textarea cols="70" rows="10"></textarea> 
+
+			<div>
+				<p>Como prefere o nosso contato?</p>
+
+				<label for="radio-email">email</label>
+				<input type="radio" name="contato" value="email" id="radio-email">
+				
+				<label for="radio-telefone">telefone</label>
+				<input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+				<label for="radio-whatszap">whatszap</label>
+				<input type="radio" name="contato" value="whatszap" id="radio-whatszap">
+			</div>
+
+			<div>
+				<p>qual o horario prefere ser atendido</p>
+				<select>
+					<option>manhan</option>
+					<option>tarde</option>
+					<option>noite</option>
+				</select>
+			</div>
+
+
+				<label><input type="checkbox">
+				Gostaria de receber novidades por email?</label>
+				
+				<input type="submit" value="Enviar formulário">
+         </form>
+			
+		</main>
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyrigth">&copy; copyrigth Barbearia Alura - 2019</p>
+		</footer>
+	</body>
+</html>
